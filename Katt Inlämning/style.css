@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(30, 30, 30);
+}
+
+.Min-Sida{
+    color: white;
+    text-align: center;
+    margin: 100px;
+    font-family: "Roboto", sans-serif;
+}
+img {
+    height: 400px;width: 400px;
+    margin-left: 300px;
+}
+p{
+    color: white;
+    margin-left: 30px;
+}
+div{
+    display: flex;
+    font-family: "Roboto", sans-serif;
+}

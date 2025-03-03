@@ -1,0 +1,44 @@
+body {
+    background-color: hsl(0, 0%, 60%) ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+h1{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.PlaceHolderApple2 {
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.lila{
+    /* display: flex; */
+    /* gap: 50px; */
+    /* grid-column: 1 / -1; */
+}
+
+.imgtext{
+    display: flex;
+}
+
+.blå{
+    grid-column: 2;
+}
+
+.lila2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

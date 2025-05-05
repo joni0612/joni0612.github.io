@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teknik Affär | Products</title>
+</head>
+<body>
+    <nav>
+    <ul class="main-link">
+        <a href="index.html"><li class="main-links">Home</li></a>
+        <a href="Products.html"><li class="main-links">Products</li></a>
+        <a href="AboutUs.html"><li class="main-links">About Us</li></a>
+    </ul>
+    <div class="pfp"><img src="Pictures/user-solid (1).svg">
+    </div>
+    <div class="popup">
+      <a href="login.html"><p class="Log">Log In</p></a>
+      <a href="signup.html"><p class="Sign">Sign Up</p></a>
+    </div>
+  </nav>
+    <main>
+
+      <section class="main-section section-computers">
+        <h1 class="Computers">Computers</h1>
+        <div class="gallery">
+            <a target="_blank" href="https://www.apple.com/se/shop/buy-mac/macbook-air">
+              <img src="Pictures/mba_15_m3_2024_hero.png" alt="" width="600" height="400">
+            </a>
+            <div class="desc">Macbook Air</div>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="https://rog.asus.com/us/laptops/rog-strix/rog-strix-g15-2022-series/gallery/">
+              <img src="Pictures/h732.png" alt="" width="600" height="400">
+            </a>
+            <div class="desc">Rog Strix G15</div>
+        </div>
+
+          <div class="gallery">
+            <a target="_blank" href="https://rog.asus.com/se/laptops/rog-strix/rog-strix-g16-2024/wtb/">
+              <img src="Pictures/D3507F83-4008-4ED5-9892-7AA04D060ADC.png" alt="" width="600" height="400">
+            </a>
+            <div class="desc">ROG Strix G16</div>
+          </div>
+
+
+      <div class="gallery">
+        <a target="_blank" href="https://rog.asus.com/se/gaming-handhelds/rog-ally/rog-ally-2023/wtb/">
+          <img src="Pictures/Ally.png" alt="" width="600" height="400">
+        </a>
+        <div class="desc">Rog Ally</div>
+      </div>
+
+
+      <div class="gallery">
+        <a target="_blank" href="https://nzxt.com/product/player-one">
+          <img src="Pictures/1727324328-player-1-ww-09-04-24-hero-black-badge.avif" alt="" width="600" height="400">
+        </a>
+        <div class="desc">NZXT "Player One"</div>
+      </div>
+
+
+  </section>
+
+
+      <section class="main-section section-phones">
+        <h1 class="Phones">Phones</h1>
+
+        <div class="gallery">
+          <a target="_blank" href="https://www.samsung.com/se/smartphones/galaxy-s24-ultra/">
+            <img src="Pictures/se-galaxy-s24-s928-sm-s928bztpeub-539438474.webp" alt="" width="600" height="400">
+          </a>
+          <div class="desc">Samsung Galaxy S24 Ultra</div>
+        </div>
+        
+        
+        <div class="gallery">
+          <a target="_blank" href="https://www.samsung.com/se/smartphones/galaxy-s23-ultra/buy/">
+            <img src="Pictures/samsung-galaxy-s23-ultra-transparent-image-free-png.webp" alt="" width="600" height="400">
+          </a>
+          <div class="desc">Samsung Galaxy S23 Ultra</div>
+        </div>
+        
+        </div>
+
+        <div class="gallery">
+          <a target="_blank" href="https://www.samsung.com/se/smartphones/galaxy-z-flip6/buy/">
+            <img src="Pictures/SamsungGalaxyZFlip65GGul-edited.webp" alt="" width="600" height="400">
+          </a>
+          <div class="desc">Samsung Z Flip 6</div>
+        </div>
+
+
+      </section>
+
+        
+      <section class="main-section section-tablets">
+        <h1 class="Phones">Tablets</h1>
+          
+
+        <div class="gallery">
+          <a target="_blank" href="">
+            <img src="Pictures/Ipad-PRO.webp" alt="" width="600" height="400">
+          </a>
+          <div class="desc">iPad Pro</div>
+        </div>
+
+        <div class="gallery">
+          <a target="_blank" href="">
+            <img src="Pictures/filters_upscale().webp" alt="" width="600" height="400">
+          </a>
+          <div class="desc">Ipad Air</div>
+        </div>
+
+
+        <div class="gallery">
+          <a target="_blank" href="">
+            <img src="Pictures/se-galaxy-tab-s8-ultra-wifi-x900-sm-x900nzaaeub-thumb-532101607.webp" alt="" width="600" height="400">
+          </a>
+          <div class="desc">Samsung TAB S8 Ultra</div>
+        </div>
+
+
+
+        <div class="gallery">
+          <a target="_blank" href="">
+            <img src="Pictures/5_3f982179-f9e6-44b2-b636-77245de76575_900x.webp" alt="" width="600" height="400">
+          </a>
+          <div class="desc">REDMAGIC Nova Gaming Tablet</div>
+        </div>
+
+
+
+        <div class="gallery">
+          <a target="_blank" href="">
+            <img src="" alt="" width="600" height="400">
+          </a>
+          <div class="desc"></div>
+        </div>
+
+
+      </section>
+
+    </main>
+
+    <script>
+      var pfp = document.querySelector(".pfp")
+      var menu = document.querySelector(".popup")
+
+      pfp.addEventListener("click", () => {
+        console.log("Hej!")
+        // menu.style.display = "none"
+
+        if(menu.style.display == "block"){
+          menu.style.display = "none"
+        } else {
+          menu.style.display = "block"
+        }
+
+        pfp.classList.toggle("bla")
+      
+      })
+
+    </script>
+
+
+</body>

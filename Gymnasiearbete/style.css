@@ -1,0 +1,235 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body {
+    background-color: gray;
+}
+
+.pfp img {
+  width: 50px;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+}
+
+.main-link{
+    font-size: large;
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    gap: 15px;
+    width: 50%;
+    color: white;
+    font-family: "Arima", system-ui;
+}
+
+
+
+
+.Teknikaffär{
+  color: white;
+  font-family: "Arima", system-ui;
+}
+
+.Utbud{
+  color: white;
+  font-family: "Arima", system-ui;
+}
+
+
+.arrow-down{
+  margin-left: 850px;
+  display: auto 0;
+  width: 200px;
+  height: 90px;
+}
+
+
+.popup {
+  width: 90px;
+  height: 90px;
+  list-style: none;
+  font-family: "Arima", system-ui;
+}
+
+.main-links{
+    cursor: pointer;
+    margin-bottom: auto;
+}
+
+.gallery {
+    color: white;
+    font-family: "Arima", system-ui
+}
+
+div.gallery {
+    margin: 5px;
+    border: 8px solid #ccc;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 8px solid rgb(86, 82, 82);
+    cursor: pointer;
+    box-shadow: 10px 5px 5px darkgray;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .Title{
+    text-align: center;
+    color: white;
+    font-family: "Arima", system-ui
+  }
+
+
+  .AboutUs{
+    text-align: center;
+    color: white;
+    font-family: "Arima", system-ui
+  }
+
+  .Computers{
+    color: white;
+    font-family: "Arima", system-ui
+  }
+
+  .main-link a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .main-link a:hover{
+    color: lightgray;
+  }
+
+  .popup {
+    text-align: center;
+    position: fixed;
+    right: 0;
+    top: 65px;
+    color: white;
+    font-size: 20px;
+    display: none;
+ }
+
+
+  .Log, .Sign {
+    list-style: none;
+    cursor: pointer;
+  }
+
+  .usernametext, .passwordtext{
+    color: white;
+    font-size: 18px;
+    font-family: "Arima", system-ui
+  }
+
+
+  .Phones{
+    color: white;
+    font-family: "Arima", system-ui
+  }
+  
+
+
+  .Welcome{
+    color: white;
+    font-family: "Arima", system-ui
+  }
+
+
+
+  .bla {
+    animation: fade 500ms;
+
+  }
+
+  .index-main {
+    text-align: center;
+
+  }
+
+  .index-main a{
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #f5f5f5;
+    outline: 1px solid black;
+    border-radius: 8px;
+    font-size: larger;
+    color: black;
+    text-decoration: none;
+    padding: 2em 4em;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px #545454;
+   
+
+  }
+
+  .index-main a:hover{
+    background-color: #e0e0e0;
+
+  }
+
+  .index-main a:active{
+    top:2px;
+    right: 2px;
+    position: relative;
+    box-shadow: inset 3px 3px 3px #9a9a9a;
+  }
+
+  @keyframes fade {
+    0% {
+      opacity: 1;
+    
+    }
+    50% {
+      opacity: 0.1;
+      
+    }
+    100% {
+      opacity: 1;
+      
+    }
+  }
+
+
+
+
+
+
+/* grid */
+/* .main-section {
+  background-color: blue;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.main-section .gallery {
+  grid-row: 2;
+} */
+
+/* flex */
+.main-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-section h1 {
+  flex-basis: 100%;
+}
+
+

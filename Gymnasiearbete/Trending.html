@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teknikaffär | Trending</title>
+</head>
+<body>
+    <nav>
+        <ul class="main-link">
+            <a href="index.html"><li class="main-links">Home</li></a>
+            <a href="Products.html"><li class="main-links">Products</li></a>
+            <a href="Trending.html"><li class="main-links">Trending</li></a>
+            <a href="AboutUs.html"><li class="main-links">About Us</li></a>
+        </ul>
+        <div class="pfp"><img src="Pictures/user-solid (1).svg">
+        </div>
+        <div class="popup">
+            <a href="login.html"><p class="Log">Log In</p></a>
+            <a href="signup.html"><p class="Sign">Sign Up</p></a>
+          </div>
+      </nav>
+
+      <main>
+
+      </main>
+
+
+      <script>
+        var pfp = document.querySelector(".pfp")
+        var menu = document.querySelector(".popup")
+  
+        pfp.addEventListener("click", () => {
+          console.log("Hej!")
+          // menu.style.display = "none"
+  
+          if(menu.style.display == "block"){
+            menu.style.display = "none"
+          } else {
+            menu.style.display = "block"
+          }
+  
+          pfp.classList.toggle("bla")
+        
+        })
+  
+      </script>
+
+
+</body>
